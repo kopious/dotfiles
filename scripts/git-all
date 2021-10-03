@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while read repo; do
+    echo $repo
+    git clone $repo
+done
